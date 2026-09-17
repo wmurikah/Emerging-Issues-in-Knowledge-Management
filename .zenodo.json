@@ -1,6 +1,6 @@
 {
   "title": "Emerging Issues in Knowledge Management: Artificial Intelligence, Knowledge Graphs, Digital Transformation and Organizational Learning",
-  "description": "An open research resource exploring artificial intelligence, generative AI, knowledge graphs, digital transformation, organizational learning, knowledge sharing, knowledge retention, knowledge fragility, knowledge resilience and governance in modern knowledge-management systems.",
+  "description": "An open research project on knowledge management, knowledge risk management, knowledge continuity, institutional knowledge loss, knowledge retention, organizational learning and AI readiness. The repository includes the K-FRAME model for studying knowledge fragility, resilience, assurance, memory, evidence, decision reproducibility and knowledge stress testing.",
   "creators": [
     {
       "name": "Murikah, Wilberforce"
@@ -8,20 +8,31 @@
   ],
   "keywords": [
     "knowledge management",
-    "artificial intelligence",
-    "generative AI",
-    "knowledge graphs",
-    "digital transformation",
-    "organizational learning",
-    "knowledge sharing",
+    "knowledge management assessment",
+    "knowledge management maturity",
+    "knowledge risk management",
+    "knowledge continuity",
+    "institutional knowledge loss",
+    "key person risk",
     "knowledge retention",
+    "knowledge transfer",
+    "tacit knowledge",
+    "organizational memory",
+    "organizational learning",
+    "artificial intelligence",
+    "AI readiness assessment",
+    "AI knowledge management",
+    "generative AI",
+    "retrieval-augmented generation",
+    "knowledge graphs",
     "knowledge fragility",
     "knowledge resilience",
-    "knowledge risk",
     "knowledge assurance",
     "knowledge stress testing",
+    "decision reproducibility",
+    "knowledge governance",
     "information systems",
-    "knowledge governance"
+    "digital transformation"
   ],
   "license": "MIT",
   "upload_type": "publication",
