@@ -66,11 +66,11 @@ The original repository included the following visual research material. The ima
 
 Additional research-oriented pages are available in the [`docs`](docs/) directory:
 
-- [Artificial intelligence and knowledge management](docs/artificial-intelligence.md)
-- [Knowledge graphs and semantic knowledge](docs/knowledge-graphs.md)
-- [Organizational learning and knowledge sharing](docs/organizational-learning.md)
-- [Digital transformation and knowledge systems](docs/digital-transformation.md)
-- [Research references and further reading](docs/references.md)
+- [Artificial intelligence and knowledge management](docs/artificial-intelligence.html)
+- [Knowledge graphs and semantic knowledge](docs/knowledge-graphs.html)
+- [Organizational learning and knowledge sharing](docs/organizational-learning.html)
+- [Digital transformation and knowledge systems](docs/digital-transformation.html)
+- [Research references and further reading](docs/references.html)
 
 ## Search and discovery keywords
 
