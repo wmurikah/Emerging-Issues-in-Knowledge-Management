@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "Emerging Issues in Knowledge Management: Artificial Intelligence, Knowledge Graphs, Digital Transformation and Organizational Learning"
+message: "If you use this work, please cite it using the metadata in this file."
+type: dataset
+authors:
+  - family-names: Murikah
+    given-names: Wilberforce
+    alias: wmurikah
+repository-code: "https://github.com/wmurikah/Emerging-Issues-in-Knowledge-Management"
+url: "https://wmurikah.github.io/Emerging-Issues-in-Knowledge-Management/"
+license: MIT
+keywords:
+  - knowledge management
+  - artificial intelligence
+  - generative AI
+  - knowledge graphs
+  - digital transformation
+  - organizational learning
+  - knowledge sharing
+  - knowledge retention
+  - information systems
+  - knowledge governance
+  - emerging technologies
+date-released: 2025-03-09
