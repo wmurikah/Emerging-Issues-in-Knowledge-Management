@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "Emerging Issues in Knowledge Management: Artificial Intelligence, Knowledge Graphs, Digital Transformation and Organizational Learning"
-message: "If you use this work, please cite it using the metadata in this file."
+message: "If you use this work or the K-FRAME research model, please cite it using the metadata in this file."
 type: dataset
 authors:
   - family-names: Murikah
@@ -11,19 +11,29 @@ url: "https://wmurikah.github.io/Emerging-Issues-in-Knowledge-Management/"
 license: MIT
 keywords:
   - knowledge management
-  - artificial intelligence
-  - generative AI
-  - knowledge graphs
-  - digital transformation
-  - organizational learning
-  - knowledge sharing
+  - knowledge management assessment
+  - knowledge management maturity
+  - knowledge risk management
+  - knowledge continuity
+  - institutional knowledge loss
+  - key person risk
   - knowledge retention
+  - knowledge transfer
+  - tacit knowledge
+  - organizational memory
+  - organizational learning
+  - artificial intelligence
+  - AI readiness assessment
+  - AI knowledge management
+  - generative AI
+  - retrieval-augmented generation
+  - knowledge graphs
   - knowledge fragility
   - knowledge resilience
-  - knowledge risk
   - knowledge assurance
   - knowledge stress testing
-  - information systems
+  - decision reproducibility
   - knowledge governance
-  - emerging technologies
+  - information systems
+  - digital transformation
 date-released: 2025-03-09
