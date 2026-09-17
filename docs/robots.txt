@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wmurikah.github.io/Emerging-Issues-in-Knowledge-Management/sitemap.xml
