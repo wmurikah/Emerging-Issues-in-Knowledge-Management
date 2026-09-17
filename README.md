@@ -4,6 +4,7 @@
 [![Research](https://img.shields.io/badge/Type-Academic%20Research-6b7280)](#about-the-project)
 [![Knowledge Management](https://img.shields.io/badge/Topic-Knowledge%20Management-0f766e)](#research-themes)
 [![AI](https://img.shields.io/badge/Topic-Artificial%20Intelligence-7c3aed)](#research-themes)
+[![Prototype](https://img.shields.io/badge/Prototype-K--FRAME-111827)](docs/k-frame/)
 
 **Emerging Issues in Knowledge Management: Artificial Intelligence, Knowledge Graphs, Digital Transformation and Organizational Learning**
 
@@ -19,20 +20,38 @@ The project is intended for students, researchers, information-systems professio
 
 The repository focuses on several closely connected areas:
 
-- **Artificial intelligence in knowledge management** — how machine learning, large language models and generative AI affect knowledge creation, discovery, codification and reuse.
-- **Knowledge graphs and semantic technologies** — how relationships among people, concepts, documents and organizational assets can be represented and queried more effectively.
-- **Knowledge sharing and organizational learning** — how organizations create conditions for knowledge transfer, collaboration and continuous learning.
-- **Tacit and explicit knowledge** — the persistent challenge of converting experience, judgement and institutional memory into reusable organizational knowledge.
-- **Digital transformation** — the effect of cloud platforms, automation, analytics and digital workflows on knowledge-management systems.
-- **Knowledge retention** — preserving institutional knowledge when employees change roles, retire or leave organizations.
-- **Knowledge governance and trust** — questions of information quality, access, privacy, security, provenance, accountability and responsible AI.
-- **Future knowledge-management systems** — the evolution from static repositories toward contextual, conversational and intelligent knowledge environments.
+- **Artificial intelligence in knowledge management:** how machine learning, large language models and generative AI affect knowledge creation, discovery, codification and reuse.
+- **Knowledge graphs and semantic technologies:** how relationships among people, concepts, documents and organizational assets can be represented and queried more effectively.
+- **Knowledge sharing and organizational learning:** how organizations create conditions for knowledge transfer, collaboration and continuous learning.
+- **Tacit and explicit knowledge:** the persistent challenge of converting experience, judgement and institutional memory into reusable organizational knowledge.
+- **Digital transformation:** the effect of cloud platforms, automation, analytics and digital workflows on knowledge-management systems.
+- **Knowledge retention:** preserving institutional knowledge when employees change roles, retire or leave organizations.
+- **Knowledge governance and trust:** questions of information quality, access, privacy, security, provenance, accountability and responsible AI.
+- **Future knowledge-management systems:** the evolution from static repositories toward contextual, conversational and intelligent knowledge environments.
 
 ## Why this matters
 
 Organizations increasingly depend on knowledge as a strategic asset, yet the volume, speed and fragmentation of information continue to grow. Emerging technologies can improve knowledge discovery and reuse, but they also introduce new risks involving hallucination, information quality, ownership, security, bias, explainability and over-reliance on automated systems.
 
 Effective knowledge management therefore requires more than technology. It depends on governance, organizational culture, incentives, information architecture, human expertise and carefully designed socio-technical systems.
+
+## K-FRAME: applied research prototype
+
+The repository now includes **K-FRAME**, a working prototype for turning the research themes into an organizational diagnostic and stress-testing tool.
+
+K-FRAME stands for **Knowledge Fragility, Resilience, Assurance, Memory and Evidence**. Instead of producing only a conventional maturity score, the model is designed to ask a harder operational question: **what knowledge would become unavailable, untrustworthy or irreproducible if a person, system, source or assumption disappeared today?**
+
+The prototype combines five lenses:
+
+1. **Fragility:** where critical knowledge is concentrated or undocumented.
+2. **Resilience:** whether work can continue when a key holder, system or source is unavailable.
+3. **Assurance:** whether important claims and decisions are supported by current, authoritative evidence.
+4. **Memory:** whether organizational decisions, exceptions and lessons remain reconstructable over time.
+5. **Evidence:** whether people and AI systems can trace knowledge back to reliable sources.
+
+It also introduces a **Knowledge Shock Simulator**. A user can model scenarios such as a key expert leaving, a primary repository becoming unavailable, critical documentation becoming stale, or AI being asked to reason from incomplete sources. The output highlights the likely knowledge-loss radius and recommends targeted interventions.
+
+The browser prototype is available in [`docs/k-frame/`](docs/k-frame/). The production architecture is described in [`model/`](model/). The public repository intentionally does not contain the future private scoring, graph inference or recommendation engine. Those components are designed to run behind an authenticated API when the tool is deployed commercially.
 
 ## Key concepts covered
 
@@ -71,10 +90,12 @@ Additional research-oriented pages are available in the [`docs`](docs/) director
 - [Organizational learning and knowledge sharing](docs/organizational-learning.html)
 - [Digital transformation and knowledge systems](docs/digital-transformation.html)
 - [Research references and further reading](docs/references.html)
+- [K-FRAME interactive prototype](docs/k-frame/)
+- [K-FRAME model and deployment architecture](model/)
 
 ## Search and discovery keywords
 
-Knowledge management; emerging issues in knowledge management; artificial intelligence in knowledge management; AI and knowledge management; generative AI; knowledge graphs; knowledge sharing; knowledge retention; organizational learning; tacit knowledge; explicit knowledge; digital transformation; knowledge management systems; organizational knowledge; information systems; semantic technologies; institutional memory; knowledge governance; emerging technologies.
+Knowledge management; emerging issues in knowledge management; artificial intelligence in knowledge management; AI and knowledge management; generative AI; knowledge graphs; knowledge sharing; knowledge retention; organizational learning; tacit knowledge; explicit knowledge; digital transformation; knowledge management systems; organizational knowledge; information systems; semantic technologies; institutional memory; knowledge governance; knowledge fragility; knowledge resilience; knowledge assurance; knowledge stress testing; emerging technologies.
 
 ## Citation
 
@@ -95,9 +116,15 @@ The [`docs`](docs/) directory contains a GitHub Pages-ready research microsite w
 
 `https://wmurikah.github.io/Emerging-Issues-in-Knowledge-Management/`
 
+The K-FRAME prototype will then be available at:
+
+`https://wmurikah.github.io/Emerging-Issues-in-Knowledge-Management/k-frame/`
+
+A future production deployment can move the application to a dedicated subdomain while keeping the research site as the public scholarly reference.
+
 ## License
 
-This project is released under the [MIT License](LICENSE). Unless otherwise stated, third-party concepts and referenced works remain the property of their respective authors and publishers.
+The open research materials and public demonstration code in this repository are released under the [MIT License](LICENSE). The planned production K-FRAME scoring engine, graph inference service, private prompts, calibration data and recommendation logic are not included in this repository and are intended to remain proprietary.
 
 ---
 

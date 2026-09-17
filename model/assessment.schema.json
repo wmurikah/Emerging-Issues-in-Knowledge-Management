@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://murikah.com/schemas/k-frame-assessment.schema.json",
+  "title": "K-FRAME Assessment",
+  "description": "Public input contract for a K-FRAME knowledge fragility and resilience assessment.",
+  "type": "object",
+  "required": ["organization", "scope", "responses"],
+  "properties": {
+    "organization": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "scope": {
+      "type": "object",
+      "required": ["type", "name"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["organization", "business_unit", "process", "role", "knowledge_domain"]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        }
+      },
+      "additionalProperties": false
+    },
+    "responses": {
+      "type": "object",
+      "required": [
+        "criticalKnowledgeConcentration",
+        "secondaryOwnership",
+        "evidenceFreshness",
+        "decisionTraceability",
+        "sourceConsistency",
+        "transferReadiness",
+        "accessContinuity",
+        "aiProvenanceReadiness"
+      ],
+      "properties": {
+        "criticalKnowledgeConcentration": {"$ref": "#/$defs/rating"},
+        "secondaryOwnership": {"$ref": "#/$defs/rating"},
+        "evidenceFreshness": {"$ref": "#/$defs/rating"},
+        "decisionTraceability": {"$ref": "#/$defs/rating"},
+        "sourceConsistency": {"$ref": "#/$defs/rating"},
+        "transferReadiness": {"$ref": "#/$defs/rating"},
+        "accessContinuity": {"$ref": "#/$defs/rating"},
+        "aiProvenanceReadiness": {"$ref": "#/$defs/rating"}
+      },
+      "additionalProperties": false
+    },
+    "shock": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "key_person_unavailable",
+            "repository_unavailable",
+            "stale_evidence",
+            "source_contradiction",
+            "secondary_owner_lost",
+            "ai_incomplete_context"
+          ]
+        },
+        "severity": {"$ref": "#/$defs/rating"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "rating": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    }
+  },
+  "additionalProperties": false
+}

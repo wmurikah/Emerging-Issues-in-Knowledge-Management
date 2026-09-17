@@ -1,6 +1,6 @@
 {
   "title": "Emerging Issues in Knowledge Management: Artificial Intelligence, Knowledge Graphs, Digital Transformation and Organizational Learning",
-  "description": "An open research resource exploring artificial intelligence, generative AI, knowledge graphs, digital transformation, organizational learning, knowledge sharing, knowledge retention and governance in modern knowledge-management systems.",
+  "description": "An open research resource exploring artificial intelligence, generative AI, knowledge graphs, digital transformation, organizational learning, knowledge sharing, knowledge retention, knowledge fragility, knowledge resilience and governance in modern knowledge-management systems.",
   "creators": [
     {
       "name": "Murikah, Wilberforce"
@@ -15,6 +15,11 @@
     "organizational learning",
     "knowledge sharing",
     "knowledge retention",
+    "knowledge fragility",
+    "knowledge resilience",
+    "knowledge risk",
+    "knowledge assurance",
+    "knowledge stress testing",
     "information systems",
     "knowledge governance"
   ],
