@@ -1,0 +1,33 @@
+{
+  "title": "Emerging Issues in Knowledge Management",
+  "description": "An open research and learning resource examining emerging issues in knowledge management, including artificial intelligence, generative AI, knowledge graphs, digital transformation, organizational learning, knowledge sharing, knowledge retention, provenance, information governance, cybersecurity, and organizational memory.",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Murikah, Wilberforce"
+    }
+  ],
+  "keywords": [
+    "knowledge management",
+    "artificial intelligence",
+    "generative AI",
+    "knowledge graphs",
+    "digital transformation",
+    "organizational learning",
+    "knowledge sharing",
+    "knowledge retention",
+    "organizational memory",
+    "information governance",
+    "information systems"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/wmurikah/Emerging-Issues-in-Knowledge-Management",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

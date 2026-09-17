@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this resource, please cite it using the metadata below."
+title: "Emerging Issues in Knowledge Management"
+type: dataset
+authors:
+  - family-names: "Murikah"
+    given-names: "Wilberforce"
+version: 1.0.0
+repository-code: "https://github.com/wmurikah/Emerging-Issues-in-Knowledge-Management"
+url: "https://wmurikah.github.io/Emerging-Issues-in-Knowledge-Management/"
+license: MIT
+abstract: >-
+  An open research and learning resource on emerging issues in knowledge
+  management, including artificial intelligence, generative AI, knowledge
+  graphs, digital transformation, organizational learning, knowledge sharing,
+  knowledge retention, provenance, information governance, cybersecurity, and
+  organizational memory.
+keywords:
+  - knowledge management
+  - artificial intelligence
+  - generative AI
+  - knowledge graphs
+  - digital transformation
+  - organizational learning
+  - knowledge sharing
+  - knowledge retention
+  - organizational memory
+  - information governance
+  - information systems
